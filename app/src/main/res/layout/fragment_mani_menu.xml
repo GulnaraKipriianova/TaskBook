@@ -1,0 +1,49 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskFragment"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/flag"
+        android:rotationY="0"
+        android:text="@string/task"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_create_task"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:background="@drawable/button_footer"
+        android:layout_marginTop="610dp"
+        android:layout_marginStart="200dp"/>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/share" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task_recycler_view"
+        android:layout_width="297dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="190dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</FrameLayout>
